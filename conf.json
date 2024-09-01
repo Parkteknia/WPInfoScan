@@ -1,0 +1,15 @@
+{
+    "hosts": [
+    
+        {
+            "domain": "wordpress.org",
+            "paths": ["plugins", "themes", "blocks"]
+        },
+        {
+            "domain": "wordpress.com",
+            "paths": ["plugins"]
+        }
+    
+    ]
+
+}

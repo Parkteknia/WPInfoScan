@@ -1,0 +1,174 @@
+# Spanish translations for m package
+# Traducciones al español para el paquete m.
+# Copyright (C) 2024 THE m'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the m package.
+# m3not4 <pera.andreu@parkteknia.com>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: m 3not4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-16 09:17+0100\n"
+"PO-Revision-Date: 2024-08-18 18:22+0200\n"
+"Last-Translator: m3not4 <pera.andreu@parkteknia.com>\n"
+"Language-Team: Spanish <es@tp.org.es>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: wp-info-scan.py:49
+msgid "Request parsed:"
+msgstr "Solicitud analizada:"
+
+#: wp-info-scan.py:52
+msgid "Request error:"
+msgstr "Error en la solicitud:"
+
+#: wp-info-scan.py:52
+#, python-format
+msgid "(status code:%s)"
+msgstr "(código de estado: %s)"
+
+#: wp-info-scan.py:57
+#, python-format
+msgid "The file %s does not exist!"
+msgstr "¡El archivo %s no existe!"
+
+#: wp-info-scan.py:87
+#, python-format
+msgid "Domain name %s is invalid!"
+msgstr "¡El nombre de dominio %s no es válido!"
+
+#: wp-info-scan.py:93
+#, python-format
+msgid "It appears that domain name %s does not exist!"
+msgstr "¡Parece que el nombre de dominio %s no existe!"
+
+#: wp-info-scan.py:97
+#, python-format
+msgid "Domain name %s does not contain a WP installation!"
+msgstr "¡El nombre de dominio %s no contiene una instalación de WP!"
+
+#: wp-info-scan.py:103
+msgid "Loading..."
+msgstr "Cargando..."
+
+#: wp-info-scan.py:106
+msgid "Loaded config:"
+msgstr "Configuración cargada:"
+
+#: wp-info-scan.py:112
+msgid "Validating config data..."
+msgstr "Validando los datos de configuración..."
+
+#: wp-info-scan.py:122
+msgid "invalid"
+msgstr "inválido"
+
+#: wp-info-scan.py:126
+msgid "offline"
+msgstr "desconectado"
+
+#: wp-info-scan.py:177
+msgid "Analyzing domain:"
+msgstr "Analizando dominio"
+
+#: wp-info-scan.py:183
+msgid "This Wordpress installation appears to contain no plugins"
+msgstr "Parece que esta instalación de Wordpress no contiene plugins"
+
+#: wp-info-scan.py:189
+msgid "This Wordpress installation appears to contain no themes"
+msgstr "Parece que esta instalación de Wordpress no contiene temas"
+
+#: wp-info-scan.py:195
+msgid ""
+"Scan any Wordpress powered website and try to identify plugins and themes "
+"installed"
+msgstr "Escanea cualquier sitio web con Wordpress e intenta identificar los plugins y temas instalados"
+
+#: wp-info-scan.py:200
+msgid "Choose <default> config (to pass a domain and urls),\n<custom> (to load your own conf.json file) or\n<stats> (to see last data.json scan stats).\n<default, custom or stats>"
+msgstr "Elija la configuración <default> (para pasar un dominio y urls),\n<custom> (para cargar su propio archivo conf.json) o\n<stats> (para ver las estadísticas del último escaneo data.json).\n<default, custom o stats>"
+
+#: wp-info-scan.py:206
+msgid "Select what to do if there is an error during the scan <stop or force>"
+msgstr "Selecciona qué hacer si hay un error durante el escaneo <detener o forzar>"
+
+#: wp-info-scan.py:212
+msgid "Save scan results to a <json> file"
+msgstr "Guardar los resultados del escaneo en un <json>"
+
+#: wp-info-scan.py:217
+msgid "Scan website at <website url>"
+msgstr "Escanea el sitio web en <URL del sitio web>"
+
+#: wp-info-scan.py:223
+msgid "Enter a domain name <domain.name>"
+msgstr "Introduce un nombre de dominio <nombre.dominio>"
+
+#: wp-info-scan.py:228
+msgid "Comma separated list of urls"
+msgstr "Lista de URLs separadas por comas"
+
+#: wp-info-scan.py:236
+msgid "Enter a configuration file.json <config file>"
+msgstr "Introduce un archivo de configuración.json <archivo de configuración>"
+
+#: wp-info-scan.py:247
+msgid "Starting a 'default' WP-INFO-SCAN "
+msgstr "Iniciando un 'escaneo WP-INFO' predeterminado"
+
+#: wp-info-scan.py:251
+msgid "Starting a 'custom' WP-INFO-SCAN "
+msgstr "Iniciando un 'escaneo WP-INFO' personalizado"
+
+#: wp-info-scan.py:257
+msgid "Config Error: Invalid or inaccessible domain names!"
+msgstr "Error de configuración: ¡Nombres de dominio inválidos o inaccesibles!"
+
+#: wp-info-scan.py:262
+#, python-format
+msgid "%s"
+msgstr "%s"
+
+#: wp-info-scan.py:262
+msgid "contains errors:"
+msgstr "contiene errores:"
+
+#: wp-info-scan.py:267
+msgid ""
+"Scanning stopped due to errors. Use the [-e force] option to bypass errors "
+"or fix your configuration file."
+msgstr "El escaneo se detuvo debido a errores. Usa la opción [-e force] para omitir errores o corrige tu archivo de configuración."
+
+#: wp-info-scan.py:270
+#, python-format
+msgid "Scanning: (%d domains)"
+msgstr "Escaneando: (%d dominios)"
+
+#: wp-info-scan.py:273
+msgid "Starting scan at:"
+msgstr "Iniciando escaneo en:"
+
+#: wp-info-scan.py:278
+msgid "Invalid Wordpress installation"
+msgstr "Instalación de Wordpress inválida"
+
+#: wp-info-scan.py:280
+msgid "The domain name:"
+msgstr "El nombre de dominio:"
+
+#: wp-info-scan.py:280
+msgid "does not appear to contain a Wordpress installation."
+msgstr "no parece contener una instalación de Wordpress."
+
+#: wp-info-scan.py:287
+msgid "The '-e argument' option is not correct"
+msgstr "La opción '-e argument' no es correcta"
+
+#: wp-info-scan.py:304
+msgid "Showing stats from last WP-INFO-SCAN "
+msgstr "Mostrando estadísticas del último escaneo WP-INFO"
